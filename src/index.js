@@ -1,8 +1,15 @@
-import { renderHeader, renderMainContent, renderFooter } from "./render";
+import {
+  renderHeader,
+  renderMainContent,
+  renderMainContent2,
+  renderFooter,
+} from "./render";
 import css from "./style.css";
 
 renderHeader();
 
-renderMainContent();
+// renderMainContent();
+
+renderMainContent2();
 
 renderFooter();
