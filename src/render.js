@@ -92,7 +92,7 @@ const renderMainContent2 = () => {
     let p = createElement("p", cell);
     p.innerHTML = item.description;
     let img = createElement("img", cell);
-    img.setAttribute("src", "./src/assets/deadlift.jpg");
+    img.setAttribute("src", "./assets/deadlift.jpg");
     img.setAttribute("alt", "Girl in a jacket");
     img.setAttribute("width", "50");
     img.setAttribute("height", "60");
