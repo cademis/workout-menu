@@ -46,8 +46,7 @@ footer {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* justify-items: center; */
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
   max-width: 30rem;
   gap: 1rem;
@@ -55,15 +54,17 @@ footer {
 
 .cell {
   display: grid;
+  /* grid-template-rows: 1fr 1fr 1fr; */
   background-color: #f0f0f0;
   padding: 1rem;
-  width: 10rem;
+  width: 12rem;
   height: 20rem;
   overflow: hidden;
 }
 
 .cell p {
   font-size: 1rem;
+  overflow: hidden;
 }
 
 .cell img {

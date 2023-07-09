@@ -45,7 +45,7 @@ const renderMainContent2 = () => {
       attribute: "Photo by https://unsplash.com/@healthywithaparna",
       description:
         "Stand straight with your feet hip-width apart. Take a step forward with your right leg, then lower your body until your right knee is at a 90-degree angle and your left knee is hovering above the floor. Push back up to the starting position and switch legs.",
-      image: "./assets/lunges.jpg",
+      image: "./assets/lunges_thumbnail.jpg",
       "image-search": "https://unsplash.com/s/photos/lunges",
     },
     {
@@ -54,7 +54,7 @@ const renderMainContent2 = () => {
         'Photo by <a href="https://unsplash.com/@scottwebb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Scott Webb</a> on <a href="https://unsplash.com/s/photos/leg-press?license=free&utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>',
       description:
         "Sit on the leg press machine with your feet hip-width apart on the platform. Lower the safety bars and push the platform away by fully extending your legs. Lower the platform by slowly bending your knees while keeping your feet flat on the platform. Push back to the starting position without locking your knees at the top.",
-      image: "./assets/leg-press.jpg",
+      image: "./assets/leg-press_thumbnail.jpg",
       "image-search": "https://unsplash.com/s/photos/leg-press",
     },
     {
@@ -64,7 +64,7 @@ const renderMainContent2 = () => {
         'Photo by <a href="https://unsplash.com/@demoya?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael DeMoya</a> on <a href="https://unsplash.com/s/photos/bench-press?license=free&utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>',
       description:
         "Lie down on a flat bench, keeping your feet flat on the floor. Grab the barbell with your hands slightly wider than shoulder-width apart. Lower the barbell down to your chest, then push it back up to the starting position. Ensure your elbows are at a 45-degree angle to your body to protect your shoulders.",
-      image: "./assets/bench-press.jpg",
+      image: "./assets/bench-press_thumbnail.jpg",
       "image-search": "https://unsplash.com/s/photos/bench-press",
     },
     {
@@ -73,7 +73,7 @@ const renderMainContent2 = () => {
         'Photo by <a href="https://unsplash.com/@gcowie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gordon Cowie</a> on <a href="https://unsplash.com/s/photos/pull-ups?license=free&utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>',
       description:
         "Grab the pull-up bar with your hands slightly wider than shoulder-width apart and palms facing away from you. Hang at arm's length (dead hang). Pull yourself up by pulling your elbows down towards the floor. Keep going up until your chin passes the bar, then lower yourself back to the dead hang.",
-      image: "./assets/pull-ups.jpg",
+      image: "./assets/pull-ups_thumbnail.jpg",
       "image-search": "https://unsplash.com/s/photos/pull-ups",
     },
     {
@@ -82,7 +82,7 @@ const renderMainContent2 = () => {
         'Photo by <a href="https://unsplash.com/@rizlas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marvin Cors</a> on <a href="https://unsplash.com/s/photos/overhead-press?license=free&utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>',
       description:
         "Stand with your feet shoulder-width apart and grip the barbell at slightly wider than shoulder width. The bar should rest on your collarbone. Push the bar up and slightly back, until your arms are fully extended above your head. Lower the bar slowly back to the starting position.",
-      image: "./assets/overhead-press.jpg",
+      image: "./assets/overhead-press_thumbnail.jpg",
       "image-search": "https://unsplash.com/s/photos/overhead-press",
     },
     {
@@ -91,7 +91,7 @@ const renderMainContent2 = () => {
         'Photo by <a href="https://unsplash.com/@ryanhoffman007?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan Hoffman</a> on <a href="https://unsplash.com/s/photos/weight-machine?license=free&utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>',
       description:
         "Stand with feet shoulder-width apart and bend your knees slightly. Lean forward from your hips, not your waist. Grab the barbell with an overhand grip, hands slightly wider than shoulder-width apart. Pull the barbell to your torso, then lower it back down. Keep your back straight throughout.",
-      image: "./assets/rows.jpg",
+      image: "./assets/rows_thumbnail.jpg",
       "image-search": "https://unsplash.com/s/photos/barbell-rows",
     },
     {
@@ -100,7 +100,7 @@ const renderMainContent2 = () => {
         'Photo by <a href="https://unsplash.com/@rinked?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rinke Dohmen</a> on <a href="https://unsplash.com/s/photos/squats?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>',
       description:
         "Stand with your feet shoulder-width apart. Lower your body as if sitting in a chair, keeping your back straight and knees over your ankles. Go as low as your flexibility allows, ideally until your thighs are parallel with the floor, then push back up to the starting position.",
-      image: "./assets/squats.jpg",
+      image: "./assets/squats_thumbnail.jpg",
       "image-search": "https://unsplash.com/s/photos/squats",
     },
     {
@@ -109,7 +109,7 @@ const renderMainContent2 = () => {
         'Photo by <a href="https://unsplash.com/ko/@victorfreitas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Freitas</a> on <a href="https://unsplash.com/s/photos/deadlift?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>',
       description:
         "Stand with feet hip-width apart, mid-foot under the barbell. Bend over without bending your legs, grip the barbell with hands shoulder-width apart. Bend your knees until your shins touch the bar. Lift your chest up and straighten your back. Pull the barbell up by standing up fully.",
-      image: "./assets/deadlifts.jpg",
+      image: "./assets/deadlifts_thumbnail.jpg",
       "image-search": "https://unsplash.com/s/photos/deadlifts",
     },
   ];
