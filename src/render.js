@@ -84,6 +84,8 @@ const renderMainContent2 = () => {
     },
   ];
 
+  let allExcercises = []; // delete me
+
   data.forEach((item) => {
     let cell = createElement("div", grid);
     cell.className = "cell";
@@ -96,6 +98,9 @@ const renderMainContent2 = () => {
     img.setAttribute("alt", "Girl in a jacket");
     img.setAttribute("width", "50");
     img.setAttribute("height", "60");
+
+    allExcercises.push(item.excercise.split(" ").join("-")); // delete me
+    console.log(allExcercises);
   });
 };
 
