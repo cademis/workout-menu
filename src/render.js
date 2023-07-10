@@ -13,17 +13,36 @@ const renderHeader = () => {
   const nav = createElement("nav", header);
   const ul = createElement("ul", nav);
 
-  const tabs = ["Home", "About", "Contact"];
+  const tabs = ["Home", "Excercises", "Contact"];
   tabs.forEach((item) => {
     let li = document.createElement("li");
     li.innerHTML = item;
     ul.appendChild(li);
+    li.addEventListener("click", () => {
+      if (item === "Home") {
+        renderMainContent();
+      } else if (item === "Excercises") {
+        renderMainContent2();
+      } else if (item === "Contact") {
+        renderMainContent3();
+      }
+    });
   });
 };
 
-const renderMainContent = () => {
+const initMain = () => {
   const body = document.querySelector("body");
   const main = createElement("main", body);
+  main.innerHTML = "";
+  renderMainContent();
+};
+
+// const clearMainElement = () => {
+//   main.innerHTML = "";
+// };
+
+const renderMainContent = () => {
+  const main = document.querySelector("main");
   main.innerHTML = "";
   const mainSection = createElement("section", main);
   const sectionHeading = createElement("h2", mainSection);
@@ -33,8 +52,8 @@ const renderMainContent = () => {
 };
 
 const renderMainContent2 = () => {
-  const body = document.querySelector("body");
-  const main = createElement("main", body);
+  const main = document.querySelector("main");
+  //   const main = createElement("main", body);
   main.innerHTML = "";
   const grid = createElement("div", main);
   grid.className = "grid";
@@ -127,6 +146,16 @@ const renderMainContent2 = () => {
   });
 };
 
+const renderMainContent3 = () => {
+  const main = document.querySelector("main");
+  //   const main = createElement("main", body);
+  main.innerHTML = "";
+  let h2 = createElement("h2", main);
+  h2.innerHTML = "Contact";
+  let p = createElement("h2", main);
+  p.innerHTML = "thisisafake@email.com";
+};
+
 const renderFooter = () => {
   const body = document.querySelector("body");
   const footer = createElement("footer", body);
@@ -137,7 +166,9 @@ const renderFooter = () => {
 export {
   createElement,
   renderHeader,
+  initMain,
   renderMainContent,
   renderMainContent2,
+  renderMainContent3,
   renderFooter,
 };
